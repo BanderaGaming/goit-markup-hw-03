@@ -51,8 +51,8 @@ button {
 }
 
 .main-sections-padding {
-  padding-bottom: 95px;
-  padding-top: 95px;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .container {
@@ -216,10 +216,6 @@ button {
   margin-bottom: 50px;
 }
 
-.about {
-  padding-top: 25px;
-}
-
 .about-imgs {
   display: flex;
   gap: 30px;
@@ -269,7 +265,6 @@ button {
 }
 
 .logo-bottom {
-  margin-right: 0px;
   margin-bottom: 20px;
   display: block;
 }
@@ -280,7 +275,7 @@ button {
 
 .studio-adress {
   font-size: 14px;
-  line-height: calc(14 / 24);
+  line-height: calc(24 / 14);
   font-style: normal;
   color: var(--main-text-color);
   display: block;
@@ -297,8 +292,7 @@ button {
 /*PORTFOLIO*/
 
 .our-pojects {
-  background: #f5f5f5;
-  padding: 95px 0;
+  padding: 94px 0;
 }
 
 .filter-options {
@@ -306,6 +300,7 @@ button {
   text-align: center;
   justify-content: center;
   gap: 8px;
+  margin-bottom: 50px;
 }
 
 .filter-option {
@@ -316,9 +311,6 @@ button {
   background: var(--filter-option-color);
   border-radius: 4px;
   font-family: "Roboto";
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  margin-bottom: 50px;
   padding: 6px 25px;
 }
 
@@ -326,6 +318,8 @@ button {
 .filter-option:focus {
   background: var(--main-studio-color);
   color: var(--main-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .project-list {
@@ -345,6 +339,8 @@ button {
 
 .card {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .project-list h2 {
